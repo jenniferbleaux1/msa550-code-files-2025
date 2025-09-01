@@ -1,0 +1,56 @@
+name: Update Notebook Index
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build index
+        id: build
+        shell: bash
+        run: |
+          REPO="${{ github.repository }}"
+          BASE_GH="https://github.com/${REPO}/blob/main"
+
+          echo "" > nbindex.md
+          if git ls-files 'notebooks/**/*.ipynb' 'notebooks/*.ipynb' | grep -q .; then
+            echo "| Notebook | GitHub Link |" >> nbindex.md
+            echo "|---|---|" >> nbindex.md
+            git ls-files 'notebooks/**/*.ipynb' 'notebooks/*.ipynb' | sort | while read -r nb; do
+              name="$(basename "$nb")"
+              gh_link="${BASE_GH}/${nb}"
+              echo "| ${name} | [View on GitHub](${gh_link}) |" >> nbindex.md
+            done
+          else
+            echo "_No notebooks found yet in \`notebooks/\`._" >> nbindex.md
+          fi
+
+      - name: Inject into README
+        shell: bash
+        run: |
+          awk '
+            BEGIN { inblock=0 }
+            /<!-- nbindex-start -->/ { print; system("cat nbindex.md"); inblock=1; next }
+            /<!-- nbindex-end -->/   { inblock=0 }
+            !inblock { print }
+          ' README.md > README.new
+          mv README.new README.md
+
+      - name: Commit changes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+          else
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: auto-update notebook index"
+            git push
+          fi

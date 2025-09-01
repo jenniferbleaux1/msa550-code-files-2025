@@ -13,7 +13,7 @@ This repository is **read-only for students**:
 <!-- tocstop -->
 
 ## 📂 What’s inside
-- 🐍 Python Introduction / Refresh (non-graded practice)
+- 🐍 Python Introduction / Refresh
 - 📑 Weekly code files (Lecture 01, Lecture 02, …)
 - 🔄 Live-demo updates from class
 
@@ -69,10 +69,6 @@ _Auto-generated from files under `notebooks/`. Do not edit between the markers._
 - If a notebook expects data, we’ll include a small sample or link to a public source.
 
 ## 🆘 Troubleshooting
-
-### Notebook doesn’t render on GitHub
-- Ensure it’s a normal `.ipynb` (not zipped or tracked by LFS).
-- If the file is huge due to outputs, clear outputs and re-commit.
 
 ### `git pull` says you have local changes
 - Stash or discard the change (see “Keeping your local changes”).
