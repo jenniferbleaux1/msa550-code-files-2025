@@ -60,19 +60,6 @@ git pull
 ### Option 3 — Copy your version elsewhere
 Move your edited notebook to another folder (e.g., `my-work/`) or to a Classroom repo.
 
-<<<<<<< HEAD
-=======
-## 🧭 Notebook Index
-_Auto-generated from files under `notebooks/`. Do not edit between the markers._
-
-<!-- nbindex-start -->
-
-| Notebook | GitHub Link |
-|---|---|
-| 00_course_notebook_template.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/00_course_notebook_template.ipynb) |
-<!-- nbindex-end -->
-
->>>>>>> 1bf29eacd62bdd24d173c8e7c45ca469a86e604e
 ## 🧪 Environment & data notes
 - These are standard `.ipynb` files and render on GitHub.
 - We avoid large datasets in this repo; small samples may appear under `data/`.
