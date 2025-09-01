@@ -8,9 +8,12 @@ This repository is **read-only for students**:
 - Run `git pull` after each class to get the latest files.
 - Do **not** push here. Submissions go to your **GitHub Classroom** repos.
 
-## Table of Contents
-<!-- toc -->
-<!-- tocstop -->
+
+## 🧭 Notebooks
+_Auto-generated from files under `notebooks/`. Do not edit between the markers._
+
+<!-- nbindex-start -->
+<!-- nbindex-end -->
 
 ## 📂 What’s inside
 - 🐍 Python Introduction / Refresh
@@ -56,12 +59,6 @@ git pull
 
 ### Option 3 — Copy your version elsewhere
 Move your edited notebook to another folder (e.g., `my-work/`) or to a Classroom repo.
-
-## 🧭 Notebook Index
-_Auto-generated from files under `notebooks/`. Do not edit between the markers._
-
-<!-- nbindex-start -->
-<!-- nbindex-end -->
 
 ## 🧪 Environment & data notes
 - These are standard `.ipynb` files and render on GitHub.
