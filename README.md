@@ -13,6 +13,10 @@ This repository is **read-only for students**:
 _Auto-generated from files under `notebooks/`. Do not edit between the markers._
 
 <!-- nbindex-start -->
+
+| Notebook | GitHub Link |
+|---|---|
+| 00_course_notebook_template.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/00_course_notebook_template.ipynb) |
 <!-- nbindex-end -->
 
 ## 📂 What’s inside
