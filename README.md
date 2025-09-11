@@ -17,6 +17,7 @@ _Auto-generated from files under `notebooks/`. Do not edit between the markers._
 | Notebook | GitHub Link |
 |---|---|
 | 00_python_refresher.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/00_python_refresher.ipynb) |
+| 01_python_lecture_01 - IntroToDataMining.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/01_python_lecture_01 - IntroToDataMining.ipynb) |
 <!-- nbindex-end -->
 
 ## 📂 What’s inside
