@@ -20,6 +20,7 @@ _Auto-generated from files under `notebooks/`. Do not edit between the markers._
 | 01_python_lecture_01-IntroToDataMining.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/01_python_lecture_01-IntroToDataMining.ipynb) |
 | 02_python_lecture_02-MultipleLinearRegression.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/02_python_lecture_02-MultipleLinearRegression.ipynb) |
 | 03_python_lecture_03-LogisticRegression.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/03_python_lecture_03-LogisticRegression.ipynb) |
+| 04_python_lecture_04-kNN.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/04_python_lecture_04-kNN.ipynb) |
 <!-- nbindex-end -->
 
 ## 📂 What’s inside
