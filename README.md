@@ -21,6 +21,9 @@ _Auto-generated from files under `notebooks/`. Do not edit between the markers._
 | 02_python_lecture_02-MultipleLinearRegression.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/02_python_lecture_02-MultipleLinearRegression.ipynb) |
 | 03_python_lecture_03-LogisticRegression.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/03_python_lecture_03-LogisticRegression.ipynb) |
 | 04_python_lecture_04-kNN.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/04_python_lecture_04-kNN.ipynb) |
+| 05_python_lecture_05_ClassificationTrees.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/05_python_lecture_05_ClassificationTrees.ipynb) |
+| 06_python_lecture_06_RegressionTrees.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/06_python_lecture_06_RegressionTrees.ipynb) |
+| 07_python_lecture_07-Pipelines.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/07_python_lecture_07-Pipelines.ipynb) |
 <!-- nbindex-end -->
 
 ## 📂 What’s inside
