@@ -25,6 +25,7 @@ _Auto-generated from files under `notebooks/`. Do not edit between the markers._
 | 06_python_lecture_06_RegressionTrees.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/06_python_lecture_06_RegressionTrees.ipynb) |
 | 07_python_lecture_07-Pipelines.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/07_python_lecture_07-Pipelines.ipynb) |
 | 08_python_lecture_08-EnsembleModels.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/08_python_lecture_08-EnsembleModels.ipynb) |
+| 09_python_lecture_09-HandlingTimeSeries.ipynb | [View on GitHub](https://github.com/MSA550-Predictive-Analytics/msa550-code-files-2025/blob/main/notebooks/09_python_lecture_09-HandlingTimeSeries.ipynb) |
 <!-- nbindex-end -->
 
 ## 📂 What’s inside
